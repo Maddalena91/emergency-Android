@@ -67,7 +67,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btnprocedi"
+        android:id="@+id/btnActiveNotification"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"

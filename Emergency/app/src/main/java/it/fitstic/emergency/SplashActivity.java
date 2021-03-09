@@ -12,7 +12,13 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        startActivity(new Intent(this, TutorialActivity.class));
+
+        //TODO
+        // if statement per gestire:
+        // WelcomeActivity se l'utente non si è registrato
+        // altrimenti schermata di servizio è attivo se è già registrato
+
+        startActivity(new Intent(this, WelcomeActivity.class));
         finish();
     }
 }

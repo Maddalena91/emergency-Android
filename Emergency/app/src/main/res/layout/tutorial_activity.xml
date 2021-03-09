@@ -21,32 +21,44 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="420dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-9dp"
-        android:layout_marginTop="135dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="245dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="241dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/twtitolo"
-        android:layout_width="366dp"
-        android:layout_height="156dp"
-        android:layout_alignParentTop="true"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="501dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="73dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="111dp"
         android:gravity="center_horizontal"
         android:text="Emergency nasce con lo scopo di aiutare i soccorritori rendendo le ricerche più efficienti. Ciò avverrà utilizzando la posizione segnalata dal tuo dispositivo."
         android:textAlignment="center"
         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCapito"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="HO CAPITO"
+        android:backgroundTint="@color/dark_blue"
+        app:rippleColor="#FFFFFF" />
 
 </RelativeLayout>

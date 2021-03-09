@@ -2,9 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context=".WelcomeActivity">
 
 
@@ -68,12 +68,12 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btnprocedi"
+        android:id="@+id/btnActiveNotification"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:text="ATTIVA"
-        />
+        android:backgroundTint="@color/dark_blue"
+        android:text="ATTIVA" />
 </RelativeLayout>

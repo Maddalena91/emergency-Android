@@ -29,7 +29,7 @@
         android:gravity="center_horizontal"
         android:text="Ti da il benvenuto"
         android:textAlignment="center"
-        android:textSize="26sp" />
+        android:textSize="26sp"/>
 
     <ImageView
         android:id="@+id/image"
@@ -47,13 +47,14 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/btnprocedi"
+        android:id="@+id/btnActiveNotification"
         android:layout_width="380dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:text="PROCEDI"
-        />
+        android:backgroundTint="@color/dark_blue"
+        app:rippleColor="#FFFFFF" />
 
 </RelativeLayout>
