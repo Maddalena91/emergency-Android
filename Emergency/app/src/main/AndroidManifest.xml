@@ -17,7 +17,6 @@
         <activity android:name=".CityActivity" />
         <activity android:name=".ProvinceActivity" />
         <activity android:name=".RegionActivity" />
-        <activity android:name=".TutorialNotificationActivity" />
         <activity android:name=".TutorialGpsActivity" />
         <activity android:name=".TutorialActivity" />
         <activity android:name=".WelcomeActivity" />
@@ -27,6 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -22,7 +22,7 @@ public class TutorialGpsActivity extends AppCompatActivity {
 
         btnActiveGPS = findViewById(R.id.btnActiveNotification);
 
-        Intent intent = new Intent(this, TutorialNotificationActivity.class);
+        Intent intent = new Intent(this, RegionActivity.class);
 
         btnActiveGPS.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +50,16 @@ public class TutorialGpsActivity extends AppCompatActivity {
         }
     }
 
+    public void CheckGPSPermission() {
+        int state = ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
+
+        if(state == PackageManager.PERMISSION_GRANTED) {
+
+        } else {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, ID_RICHIESTA_PERMISSION);
+        }
+    }
+
     /**
      * metodo richiamato dall'Activity di richiesta di attivazione del servizio GPS
      * permette di abilitare o negare i permessi da parte dell'utente
@@ -57,7 +67,11 @@ public class TutorialGpsActivity extends AppCompatActivity {
      */
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        Intent intent = new Intent(this, TutorialNotificationActivity.class);
+        ProvaRefactor(requestCode, grantResults, RegionActivity.class);
+    }
+
+    private void ProvaRefactor(int requestCode, int[] grantResults, Class activity) {
+        Intent intent = new Intent(this, activity);
         switch (requestCode) {
             case ID_RICHIESTA_PERMISSION: {
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
