@@ -12,25 +12,23 @@
         android:id="@+id/logo"
         android:layout_width="109dp"
         android:layout_height="136dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="-12dp"
+        android:layout_marginTop="7dp"
+        android:layout_alignParentLeft="true"
         app:srcCompat="@drawable/logo" />
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="384dp"
-        android:layout_height="321dp"
+        android:layout_width="332dp"
+        android:layout_height="256dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="299dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="342dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -41,9 +39,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="444dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="255dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="299dp"
         android:gravity="center_horizontal"
         android:text="ATTIVA IL GPS"
         android:textSize="26dp"
@@ -51,28 +49,27 @@
 
     <TextView
         android:id="@+id/twdescrizione"
-        android:layout_width="408dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="201dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="481dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="93dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="447dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="83dp"
         android:gravity="center_horizontal"
-        android:text="Emergency utilizza il tuo GPS per inviare informazioni quando si verificherà un terremoto a partire da magnitudo 3.0. La tua localizzazione verrà resa disponibile, esclusivamente durante il terremoto, e dovrà essere sempre reperibile."
+        android:text="Emergency utilizza il tuo GPS per inviare informazioni quando si verificherà un terremoto a partire da magnitudo 3.0. La tua localizzazione verrà resa disponibile, esclusivamente durante il terremoto, e dovrà essere sempre reperibile. Si consiglia di mantenere attivo il GPS del tuo device, se non tutto il giorno, almeno per la notte."
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btnprocedi"
+        android:id="@+id/btnattiva"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:text="ATTIVA"
-        />
+        android:layout_marginBottom="14dp"
+        android:text="ATTIVA" />
 </RelativeLayout>

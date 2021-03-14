@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TutorialNotificationActivity extends AppCompatActivity {
+public class FirstInformationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tutorial_notification_activity);
+        setContentView(R.layout.first_information_activity);
     }
 }

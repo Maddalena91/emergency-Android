@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Emergency">
-        <activity android:name=".PrivacyActivity"></activity>
+        <activity android:name=".SecondInformationActivityActivity" />
+        <activity android:name=".FirstInformationActivity" />
+        <activity android:name=".PrivacyActivity" />
         <activity android:name=".AddPhonenumberActivity" />
         <activity android:name=".CityActivity" />
         <activity android:name=".ProvinceActivity" />
         <activity android:name=".RegionActivity" />
-        <activity android:name=".TutorialNotificationActivity" />
         <activity android:name=".TutorialGpsActivity" />
         <activity android:name=".TutorialActivity" />
         <activity android:name=".WelcomeActivity" />

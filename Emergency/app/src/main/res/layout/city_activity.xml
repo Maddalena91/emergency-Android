@@ -6,24 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".RegionActivity">
 
-    <RadioButton
-        android:id="@+id/checkBox1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="202dp"
-        android:text="CheckBox"
-
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="218dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/twtitolo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp"
         android:text="In che comune vivi?"
@@ -33,7 +20,7 @@
         tools:layout_editor_absoluteY="73dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/twspiegazione"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -44,8 +31,19 @@
         tools:layout_editor_absoluteX="202dp"
         tools:layout_editor_absoluteY="168dp" />
 
+    <RadioButton
+        android:id="@+id/rbcomune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="202dp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="218dp" />
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnavanti"
         android:layout_width="140dp"
         android:layout_height="55dp"
         android:layout_alignParentEnd="true"

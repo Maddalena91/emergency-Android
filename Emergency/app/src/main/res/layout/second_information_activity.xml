@@ -8,13 +8,14 @@
     tools:context=".WelcomeActivity">
 
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="109dp"
-        android:layout_height="136dp"
-        android:layout_marginTop="7dp"
-        android:layout_alignParentLeft="true"
-        app:srcCompat="@drawable/logo" />
+    <TextView
+        android:id="@+id/twfunzionamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Come funziona l'app?"
+        android:textSize="30dp"
+        />
 
     <ImageView
         android:id="@+id/image"
@@ -31,6 +32,19 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
+        android:id="@+id/twtitolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="178dp"
+        android:gravity="center"
+        android:text="COME USIAMO LE NOTIFICHE"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/twdescrizione"
         android:layout_width="366dp"
         android:layout_height="156dp"
@@ -38,21 +52,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="501dp"
+        android:layout_marginTop="566dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="73dp"
+        android:layout_marginBottom="8dp"
         android:gravity="center_horizontal"
-        android:text="Emergency nasce con lo scopo di aiutare i soccorritori rendendo le ricerche più efficienti. Ciò avverrà utilizzando la posizione segnalata dal tuo dispositivo."
+        android:text="Emergency al momento del verificarsi di un terremoto nelle zone limitrofe, di magnitudo superiore a 3.0, recupererà la tua posizione GPS, cosi da permettere ai soccorritori di trovarti rapidamente."
         android:textAlignment="center"
         android:textSize="20sp" />
-    <Button
-        android:id="@+id/btnaccettazione"
-        android:layout_width="380dp"
-        android:layout_height="70dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:text="HO CAPITO"
-        />
 
 </RelativeLayout>

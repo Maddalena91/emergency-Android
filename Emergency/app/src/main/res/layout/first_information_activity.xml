@@ -8,13 +8,14 @@
     tools:context=".WelcomeActivity">
 
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="109dp"
-        android:layout_height="136dp"
-        android:layout_marginTop="7dp"
-        android:layout_alignParentLeft="true"
-        app:srcCompat="@drawable/logo" />
+    <TextView
+        android:id="@+id/twfunzionamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Come funziona l'app?"
+        android:textSize="30dp"
+         />
 
     <ImageView
         android:id="@+id/image"
@@ -45,14 +46,5 @@
         android:text="Emergency nasce con lo scopo di aiutare i soccorritori rendendo le ricerche più efficienti. Ciò avverrà utilizzando la posizione segnalata dal tuo dispositivo."
         android:textAlignment="center"
         android:textSize="20sp" />
-    <Button
-        android:id="@+id/btnaccettazione"
-        android:layout_width="380dp"
-        android:layout_height="70dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:text="HO CAPITO"
-        />
 
 </RelativeLayout>

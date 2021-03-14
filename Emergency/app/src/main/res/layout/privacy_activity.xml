@@ -29,7 +29,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textprivacy"
+        android:id="@+id/twprivacy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/titleprivacy"
@@ -40,7 +40,7 @@
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/btnaccedi"
+        android:id="@+id/btnaccetto"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
